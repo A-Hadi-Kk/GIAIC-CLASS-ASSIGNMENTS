@@ -1,0 +1,17 @@
+{
+  "name": "ahk-find-non-repeated-char",
+  "version": "1.0.0",
+  "description": "Enter a word or a sentence and find the first non-repeated character in it",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
