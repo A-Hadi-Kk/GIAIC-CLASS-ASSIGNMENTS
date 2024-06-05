@@ -1,0 +1,11 @@
+const scrambledArray: (string | boolean | number)[] = ["student", "of", true, 123, "am", "a", "GIAIC", "I"];
+const filteredArray = scrambledArray.map(element => element.toString());
+const rearrangedArray: string[] = [];
+rearrangedArray.push(filteredArray[7]); 
+rearrangedArray.push(filteredArray[4]); 
+rearrangedArray.push(filteredArray[5]); 
+rearrangedArray.push(filteredArray[0]); 
+rearrangedArray.push(filteredArray[1]); 
+rearrangedArray.push(filteredArray[6]); 
+const result: string = rearrangedArray.join(' ');
+console.log(result); 
